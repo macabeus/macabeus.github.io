@@ -2,7 +2,7 @@
   .header {
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom-color: #cbd5e0;
+    border-bottom-color: var(--border-color);
     padding-bottom: 1rem;
   }
 
@@ -15,14 +15,7 @@
   }
 
   a {
-    color: #5f6c80;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out 0s;
-  }
-
-  a:hover {
-    color: #000;
-    text-decoration: underline;
+    color: var(--header-link-color);
   }
 
   a:not(:last-of-type) {
