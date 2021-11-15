@@ -1,7 +1,12 @@
 <script lang="ts">
-  export let work: (Post | Paper)
+  export let work: (Post | Paper | Talk)
 
-  const mainLink = 'link' in work ? work.link : work.paperLink
+  const mainLink =
+    'link' in work ?
+      work.link :
+    'paperLink' in work ?
+      work.paperLink :
+      work.videoLink
 </script>
 
 <style>
@@ -28,6 +33,10 @@
   {#if 'eventLink' in work}
     <p class="notes">
       At <a href={work.eventLink} target="_blank" rel="noopener noreferrer">{work.eventName}</a>
+
+      {#if 'slidesLink' in work}
+        — <a href={work.slidesLink} target="_blank" rel="noopener noreferrer">Slides</a>
+      {/if}
     </p>
   {/if}
 

@@ -16,3 +16,14 @@ type Paper = {
   eventLink: string,
   tags: string[],
 }
+
+type Talk = {
+  title: string,
+  date: string,
+  language: string,
+  eventName: string,
+  videoLink: string,
+  slidesLink: string,
+  eventLink: string,
+  tags: string[],
+}
