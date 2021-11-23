@@ -1,5 +1,6 @@
 <script lang="ts">
   import { assets } from '$app/paths'
+  import RouteLink from './RouteLink.svelte'
 </script>
 
 <style>
@@ -18,11 +19,7 @@
     padding-top: 1rem;
   }
 
-  a {
-    color: var(--header-link-color);
-  }
-
-  a:not(:last-of-type) {
+  :global(nav > *:not(:last-of-type)) {
     margin-right: 1rem;
   }
 </style>
@@ -31,10 +28,10 @@
   <img class="logo" src={`${assets}/logo.svg`} alt="Logo">
 
   <nav>
-    <a href="/">Home</a>
-    <a href="/essays">Essays</a>
-    <a href="/talks">Talks</a>
-    <a href="/projects">Projects</a>
-    <a href="/communities">Communities</a>
+    <RouteLink path="/">Home</RouteLink>
+    <RouteLink path="/essays">Essays</RouteLink>
+    <RouteLink path="/talks">Talks</RouteLink>
+    <RouteLink path="/projects">Projects</RouteLink>
+    <RouteLink path="/communities">Communities</RouteLink>
   </nav>
 </div>
