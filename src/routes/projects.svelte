@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { assets } from '$app/paths'
   import GridImages from '../components/GridImages.svelte'
   import fetchRepositories from '../network/fetchRepositories'
   import GridWorks from '../components/GridWorks.svelte'
@@ -99,9 +100,9 @@
 
   <GridImages
     images={[
-      { src: '../static/klo-gba-js.png', alt: 'Project klo-gba.js screenshot' },
-      { src: '../static/macro-compiler.png', alt: 'Talk showing the project MacroCompiler' },
-      { src: '../static/vscode-fluent.png', alt: 'VSCode showing the extension vscode-fluent' },
+      { src: `${assets}/klo-gba-js.png`, alt: 'Project klo-gba.js screenshot' },
+      { src: `${assets}/macro-compiler.png`, alt: 'Talk showing the project MacroCompiler' },
+      { src: `${assets}/vscode-fluent.png`, alt: 'VSCode showing the extension vscode-fluent' },
     ]}
   />
 

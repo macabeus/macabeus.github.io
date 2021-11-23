@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { assets } from '$app/paths'
+</script>
+
 <style>
   .header {
     border-bottom-style: solid;
@@ -24,7 +28,7 @@
 </style>
 
 <div class="header">
-  <img class="logo" src="../static/logo.svg" alt="Logo" >
+  <img class="logo" src={`${assets}/logo.svg`} alt="Logo">
 
   <nav>
     <a href="/">Home</a>

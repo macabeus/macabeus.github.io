@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { assets } from '$app/paths'
   import GridImages from '../components/GridImages.svelte'
   import GridWorks from '../components/GridWorks.svelte'
 
@@ -18,9 +19,9 @@
 
 <GridImages
   images={[
-    { src: '../static/pylestras.jpg', alt: 'XIV Pylestras' },
-    { src: '../static/cocoaheads.png', alt: '10th CocoaHeads Fortaleza' },
-    { src: '../static/cocoaheads-2.jpg', alt: '10th CocoaHeads Fortaleza' },
+    { src: `${assets}/pylestras.jpg`, alt: 'XIV Pylestras' },
+    { src: `${assets}/cocoaheads.png`, alt: '10th CocoaHeads Fortaleza' },
+    { src: `${assets}/cocoaheads-2.jpg`, alt: '10th CocoaHeads Fortaleza' },
   ]}
 />
 
