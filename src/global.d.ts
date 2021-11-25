@@ -25,5 +25,9 @@ type Talk = {
   videoLink: string,
   slidesLink: string,
   eventLink: string,
+  previously?: Array<{
+    name: string,
+    link: string,
+  }>,
   tags: string[],
 }

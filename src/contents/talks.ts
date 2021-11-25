@@ -7,6 +7,16 @@ const talks: Talk[] = [
     videoLink: 'https://www.youtube.com/watch?v=RMM_5bq3Ct8',
     slidesLink: 'https://speakerdeck.com/macabeus/the-day-i-reverse-engineered-a-furry-gameboy-advance-game',
     eventLink: 'https://2021.dcfurs.com/',
+    previously: [
+      {
+        name: 'The Conf 2019',
+        link: 'https://www.youtube.com/watch?v=X88pmwSltAY',
+      },
+      {
+        name: 'BalCCon2k19',
+        link: 'https://www.youtube.com/watch?v=xh0V1jRVnQI',
+      },
+    ],
     tags: ['Reverse Engineering'],
   },
   {

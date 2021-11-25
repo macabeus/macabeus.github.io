@@ -40,6 +40,18 @@
     </p>
   {/if}
 
+  {#if 'previously' in work}
+    <p class="notes">
+      Previously at:
+
+      {#each work.previously as previousWork}
+        <span>
+          <a href={previousWork.link} target="_blank" rel="noopener noreferrer">{previousWork.name}</a>
+        </span>
+      {/each}
+    </p>
+  {/if}
+
   <p>
     <time datetime={work.date}>{work.date}</time>
     —
