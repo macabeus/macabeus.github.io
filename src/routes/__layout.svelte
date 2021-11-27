@@ -1,5 +1,6 @@
 <script lang="ts">
   import Header from '../components/Header.svelte'
+  import Seo from '../components/Seo.svelte'
   import '../app.css';
 </script>
 
@@ -12,6 +13,7 @@
 
 <svelte:head>
   <title>Macabeus' Hub</title>
+  <Seo />
 </svelte:head>
 
 <body>
