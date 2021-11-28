@@ -19,9 +19,21 @@
 
 <GridImages
   images={[
-    { src: `${assets}/pylestras.jpg`, alt: 'XIV Pylestras' },
-    { src: `${assets}/cocoaheads.png`, alt: '10th CocoaHeads Fortaleza' },
-    { src: `${assets}/cocoaheads-2.jpg`, alt: '10th CocoaHeads Fortaleza' },
+    {
+      src: `${assets}/pylestras.jpg`,
+      alt: 'Photo showing a packed auditorium watching a speaker lecturing',
+      caption: 'XIV Pylestras',
+    },
+    {
+      src: `${assets}/cocoaheads.png`,
+      alt: 'Ending photo of an event with everyone',
+      caption: '10th CocoaHeads Fortaleza',
+    },
+    {
+      src: `${assets}/cocoaheads-2.jpg`,
+      alt: 'Photo showing a packed auditorium at the start of the event',
+      caption: '10th CocoaHeads Fortaleza',
+    },
   ]}
 />
 

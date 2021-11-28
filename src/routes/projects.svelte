@@ -100,9 +100,21 @@
 
   <GridImages
     images={[
-      { src: `${assets}/klo-gba-js.png`, alt: 'Project klo-gba.js screenshot' },
-      { src: `${assets}/macro-compiler.png`, alt: 'Talk showing the project MacroCompiler' },
-      { src: `${assets}/vscode-fluent.png`, alt: 'VSCode showing the extension vscode-fluent' },
+      {
+        src: `${assets}/klo-gba-js.png`,
+        alt: "klo-gba.js website, showing a Game Boy Advance running Klonoa's game and a tilemap editor",
+        caption: 'klo-gba.js',
+      },
+      {
+        src: `${assets}/macro-compiler.png`,
+        alt: 'Talk about MacroCompiler, with the slide showing the source code and its version compiled',
+        caption: 'MacroCompiler',
+      },
+      {
+        src: `${assets}/vscode-fluent.png`,
+        alt: 'VSCode with the extension vscode-fluent running',
+        caption: 'vscode-fluent',
+      },
     ]}
   />
 
