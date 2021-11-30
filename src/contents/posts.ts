@@ -21,6 +21,13 @@ const posts: Post[] = [
     tags: ['Reverse Engineering', 'JS'],
   },
   {
+    title: 'Linguagens de programação esotérica',
+    date: '2021-11-28',
+    language: 'Portuguese',
+    link: 'https://threadreaderapp.com/thread/1464949241906970625.html',
+    tags: ['Programming Language'],
+  },
+  {
     title: 'Trabalhar no exterior',
     date: '2020-12-23',
     language: 'Portuguese',
