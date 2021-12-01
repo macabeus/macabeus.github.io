@@ -1,38 +1,32 @@
-# create-svelte
+# <img src="/static/favicon.png" align="right" height="75px" />  <img src="/static/logo.svg" height="75px" />
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+> 🧭 Hub for my works in reverse engineering, web development, vscode extension, career, and more!
 
-## Creating a project
+<p align="center">
+  <img src="https://i.imgur.com/xDcD2fh.png">
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+# How to run
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+1 - Clone this repo:
 
-# create a new project in my-app
-npm init svelte@next my-app
+```
+> git clone git@github.com:macabeus/macabeus.github.io.git
 ```
 
-> Note: the `@next` is temporary
+2 - At the project root, start the SvelteKit's development mode
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+> cd macabeus.github.io.git
+> npm run dev
 ```
 
-## Building
+3 - Then the website will available at the URL [`http://localhost:3000/`](http://localhost:3000/)
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+## How to deploy
 
-```bash
-npm run build
+Deploy on GitHub Pages is a very easy task. Just run it:
+
 ```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+> npm run build && npm run deploy
+```
