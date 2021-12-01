@@ -4,6 +4,7 @@
   import ToggleButton from '../components/ToggleButton.svelte'
   import posts from '../contents/posts'
   import papers from '../contents/papers'
+  import questionsAndAnswers from '../contents/questionsAndAnswers'
 
   const allLanguages = new Set(posts.map(post => post.language))
   const allTags = new Set(posts.flatMap(post => post.tags))
@@ -97,6 +98,18 @@
     {#each papers as article}
       <WorkCell
         work={article}
+      />
+    {/each}
+  </div>
+</article>
+
+<article>
+  <h1>Q&A</h1>
+
+  <div class="works-list">
+    {#each questionsAndAnswers as qa}
+      <WorkCell
+        work={qa}
       />
     {/each}
   </div>
