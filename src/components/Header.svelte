@@ -5,7 +5,7 @@
 </script>
 
 <style>
-  .header {
+  header {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: var(--border-color);
@@ -36,7 +36,7 @@
   }
 </style>
 
-<div class="header">
+<header>
   <img class="logo" src={`${assets}/logo.svg`} alt="Logo">
 
   <div class="links-container">
@@ -50,4 +50,4 @@
 
     <SocialLinks />
   </div>
-</div>
+</header>
