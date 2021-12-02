@@ -14,23 +14,23 @@
 </style>
 
 <address>
-  <a href="https://github.com/macabeus" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/macabeus" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
     <Fa icon={faGithub} />
   </a>
 
-  <a href="https://medium.com/@macabeus" target="_blank" rel="noopener noreferrer">
+  <a href="https://medium.com/@macabeus" target="_blank" rel="noopener noreferrer" aria-label="Medium">
     <Fa icon={faMedium} />
   </a>
 
-  <a href="https://linkedin.com/in/macabeus/" target="_blank" rel="noopener noreferrer">
+  <a href="https://linkedin.com/in/macabeus/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin">
     <Fa icon={faLinkedin} />
   </a>
 
-  <a href="https://stackoverflow.com/users/3440266/macabeus" target="_blank" rel="noopener noreferrer">
+  <a href="https://stackoverflow.com/users/3440266/macabeus" target="_blank" rel="noopener noreferrer" aria-label="Stack Overflow">
     <Fa icon={faStackOverflow} />
   </a>
 
-  <a href="https://twitter.com/bmacabeus" target="_blank" rel="noopener noreferrer">
+  <a href="https://twitter.com/bmacabeus" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
     <Fa icon={faTwitter} />
   </a>
 </address>
