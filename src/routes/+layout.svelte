@@ -2,6 +2,8 @@
   import Header from '../components/Header.svelte'
   import Seo from '../components/Seo.svelte'
   import '../app.css';
+
+  export const ssr = false;
 </script>
 
 <style>

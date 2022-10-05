@@ -1,8 +1,8 @@
 <script lang="ts">
-  import EmptyState from '../components/EmptyState.svelte';
-  import WorkCell from '../components/WorkCell.svelte'
-  import ToggleButton from '../components/ToggleButton.svelte'
-  import talks from '../contents/talks'
+  import EmptyState from '../../components/EmptyState.svelte';
+  import WorkCell from '../../components/WorkCell.svelte'
+  import ToggleButton from '../../components/ToggleButton.svelte'
+  import talks from '../../contents/talks'
 
   const allLanguages = new Set(talks.map(post => post.language))
   const allTags = new Set(talks.flatMap(post => post.tags))

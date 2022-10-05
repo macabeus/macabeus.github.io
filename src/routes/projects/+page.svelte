@@ -1,8 +1,8 @@
 <script lang="ts">
   import { assets } from '$app/paths'
-  import GridImages from '../components/GridImages.svelte'
-  import fetchRepositories from '../network/fetchRepositories'
-  import GridWorks from '../components/GridWorks.svelte'
+  import GridImages from '../../components/GridImages.svelte'
+  import fetchRepositories from '../../network/fetchRepositories'
+  import GridWorks from '../../components/GridWorks.svelte'
 
   type PetProject = {
     priority: number,

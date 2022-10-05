@@ -3,7 +3,7 @@
 
   export let path: string
 
-  $: active = $page.path === path
+  $: active = $page.url.pathname === path
 </script>
 
 <style>

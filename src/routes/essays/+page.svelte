@@ -1,10 +1,10 @@
 <script lang="ts">
-  import EmptyState from '../components/EmptyState.svelte'
-  import WorkCell from '../components/WorkCell.svelte'
-  import ToggleButton from '../components/ToggleButton.svelte'
-  import posts from '../contents/posts'
-  import papers from '../contents/papers'
-  import questionsAndAnswers from '../contents/questionsAndAnswers'
+  import EmptyState from '../../components/EmptyState.svelte'
+  import WorkCell from '../../components/WorkCell.svelte'
+  import ToggleButton from '../../components/ToggleButton.svelte'
+  import posts from '../../contents/posts'
+  import papers from '../../contents/papers'
+  import questionsAndAnswers from '../../contents/questionsAndAnswers'
 
   const allLanguages = new Set(posts.map(post => post.language))
   const allTags = new Set(posts.flatMap(post => post.tags))

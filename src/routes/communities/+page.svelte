@@ -1,7 +1,7 @@
 <script lang="ts">
   import { assets } from '$app/paths'
-  import GridImages from '../components/GridImages.svelte'
-  import GridWorks from '../components/GridWorks.svelte'
+  import GridImages from '../../components/GridImages.svelte'
+  import GridWorks from '../../components/GridWorks.svelte'
 
   const formerOrganizer = {
     Pylestras: {
