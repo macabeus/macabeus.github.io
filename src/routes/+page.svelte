@@ -5,18 +5,19 @@
 <article>
   <Avatar />
 
-  <h1>Hi, I'm Macabeus! 🙋🏻‍♂️</h1>
+  <h1>Hello, I'm Macabeus! 🙋🏻‍♂️</h1>
 
   <p>
-    I'm a Sr. Full-Stack Engineer at OutSystems, building the runtime for a visual language that powers a
-    robust low-code platform. In other words, my work is to develop the libraries used when running
-    the application in the browser, as well as turning a visual language into JS.
+    I'm a Sr. Full-Stack Engineer at Anima, a startup company that improves the experience for designers and
+    front-end developers by automating their workflows.<br />
+    I work building plugins for design tools such as Figma and Adobe XD, as well as coding on our
+    Python/Node backend.
   </p>
 
   <p>
-    I learned how to code using open sources projects, so I love helping them in different ways. I have
-    several of my personal projects on GitHub, approaching different topics, including reverse engineering,
-    compilers, and text editors.
+    I learned how to code by contributing to open-source projects, so I love helping them in different ways.
+    I have several personal projects on GitHub, approaching different topics, including reverse engineering,
+    compilers, and VS Code plugins.
   </p>
 
   <p>
