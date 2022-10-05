@@ -1,39 +1,39 @@
 {
-  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/ibm-plex-sans-cyrillic-ext-400-normal-5cc4dcc1.woff2",
-    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/ibm-plex-sans-cyrillic-400-normal-6a0b950c.woff2",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/ibm-plex-sans-cyrillic-ext-400-normal-5cc4dcc1.woff2",
+    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-vietnamese-400-normal.woff2": {
     "file": "_app/immutable/assets/ibm-plex-sans-vietnamese-400-normal-09a4c493.woff2",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-vietnamese-400-normal.woff2"
   },
-  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/ibm-plex-sans-latin-ext-400-normal-3f23485d.woff2",
-    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-ext-400-normal.woff2"
+  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/ibm-plex-sans-greek-400-normal-575e5b3b.woff2",
+    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2"
   },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/ibm-plex-sans-latin-400-normal-fcecb97c.woff2",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2"
   },
-  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/ibm-plex-sans-greek-400-normal-575e5b3b.woff2",
-    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2"
+  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/ibm-plex-sans-latin-ext-400-normal-3f23485d.woff2",
+    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-all-400-normal.woff": {
     "file": "_app/immutable/assets/ibm-plex-sans-all-400-normal-d3d9f55b.woff",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-7b7596ef.js",
+    "file": "_app/immutable/start-b84f9d64.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
-      "_singletons-c71915b4.js",
+      "_singletons-80a4979b.js",
       "_paths-324980d9.js"
     ],
     "dynamicImports": [
@@ -47,13 +47,13 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-ad76e9d8.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-8e6e007f.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
       "_paths-324980d9.js",
-      "_stores-b9d5315f.js"
+      "_stores-0aaaae5f.js"
     ],
     "css": [
       "_app/immutable/assets/_layout-c3dba22e.css"
@@ -69,16 +69,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-c23b9793.js",
+    "file": "_app/immutable/components/error.svelte-57aa697d.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
-      "_stores-b9d5315f.js"
+      "_stores-0aaaae5f.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-fd607bb5.js",
+    "file": "_app/immutable/components/pages/_page.svelte-2036dd3f.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -135,8 +135,8 @@
       "_app/immutable/assets/_page-8809ac93.css"
     ]
   },
-  "_singletons-c71915b4.js": {
-    "file": "_app/immutable/chunks/singletons-c71915b4.js",
+  "_singletons-80a4979b.js": {
+    "file": "_app/immutable/chunks/singletons-80a4979b.js",
     "imports": [
       "_index-9011c3fd.js",
       "_paths-324980d9.js"
@@ -148,11 +148,11 @@
   "_index-9011c3fd.js": {
     "file": "_app/immutable/chunks/index-9011c3fd.js"
   },
-  "_stores-b9d5315f.js": {
-    "file": "_app/immutable/chunks/stores-b9d5315f.js",
+  "_stores-0aaaae5f.js": {
+    "file": "_app/immutable/chunks/stores-0aaaae5f.js",
     "imports": [
       "_index-9011c3fd.js",
-      "_singletons-c71915b4.js"
+      "_singletons-80a4979b.js"
     ]
   },
   "_GridWorks-611a7671.js": {
@@ -174,7 +174,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-84d78256.js",
+    "file": "_app/immutable/chunks/0-39200eaf.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -182,7 +182,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-38f564ce.js",
+    "file": "_app/immutable/chunks/1-a11d93dd.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -190,7 +190,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-b7bc383d.js",
+    "file": "_app/immutable/chunks/2-e21a1eec.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -229,28 +229,28 @@
       "src/routes/talks/+page.svelte"
     ]
   },
-  "src/routes/talks/+page.css": {
-    "file": "_app/immutable/assets/_page-8809ac93.css",
-    "src": "src/routes/talks/+page.css"
-  },
   "GridWorks.css": {
     "file": "_app/immutable/assets/GridWorks-d7641021.css",
     "src": "GridWorks.css"
   },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-a3b083ca.css",
-    "src": "src/routes/+page.css"
+  "src/routes/projects/+page.css": {
+    "file": "_app/immutable/assets/_page-ec0b1333.css",
+    "src": "src/routes/projects/+page.css"
   },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-c3dba22e.css",
     "src": "src/routes/+layout.css"
   },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-a3b083ca.css",
+    "src": "src/routes/+page.css"
+  },
   "ToggleButton.css": {
     "file": "_app/immutable/assets/ToggleButton-2ff52b5a.css",
     "src": "ToggleButton.css"
   },
-  "src/routes/projects/+page.css": {
-    "file": "_app/immutable/assets/_page-ec0b1333.css",
-    "src": "src/routes/projects/+page.css"
+  "src/routes/talks/+page.css": {
+    "file": "_app/immutable/assets/_page-8809ac93.css",
+    "src": "src/routes/talks/+page.css"
   }
 }
