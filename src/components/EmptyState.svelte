@@ -1,3 +1,7 @@
+<script lang="ts">
+  import NoSearchResult from '../svgs/NoSearchResult.svelte'
+</script>
+
 <style>
   figure {
     margin: 0;
@@ -16,7 +20,7 @@
 </style>
 
 <figure>
-  <img class="logo" src="../static/no-search-result.svg" alt="No search result">
+  <NoSearchResult />
 
   <figcaption>No result. Try removing one of the enabled filters</figcaption>
 </figure>
