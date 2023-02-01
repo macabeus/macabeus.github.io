@@ -1,11 +1,19 @@
 {
-  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/ibm-plex-sans-cyrillic-ext-400-normal-5cc4dcc1.woff2",
-    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2"
+  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/ibm-plex-sans-latin-400-normal-fcecb97c.woff2",
+    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/ibm-plex-sans-cyrillic-400-normal-6a0b950c.woff2",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/ibm-plex-sans-cyrillic-ext-400-normal-5cc4dcc1.woff2",
+    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/ibm-plex-sans-greek-400-normal-575e5b3b.woff2",
+    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2"
   },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/ibm-plex-sans-latin-ext-400-normal-3f23485d.woff2",
@@ -15,25 +23,17 @@
     "file": "_app/immutable/assets/ibm-plex-sans-vietnamese-400-normal-09a4c493.woff2",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-vietnamese-400-normal.woff2"
   },
-  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/ibm-plex-sans-greek-400-normal-575e5b3b.woff2",
-    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-greek-400-normal.woff2"
-  },
-  "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/ibm-plex-sans-latin-400-normal-fcecb97c.woff2",
-    "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2"
-  },
   "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-all-400-normal.woff": {
     "file": "_app/immutable/assets/ibm-plex-sans-all-400-normal-d3d9f55b.woff",
     "src": "node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-all-400-normal.woff"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-23f2925f.js",
+    "file": "_app/immutable/start-1836dc13.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
-      "_singletons-f635bf53.js",
+      "_singletons-c04e6ce2.js",
       "_paths-324980d9.js"
     ],
     "dynamicImports": [
@@ -47,16 +47,16 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-a1033472.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-151274d0.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
       "_paths-324980d9.js",
-      "_stores-0f6db918.js"
+      "_stores-3f5c6910.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-c3dba22e.css"
+      "_app/immutable/assets/_layout-f1797189.css"
     ],
     "assets": [
       "_app/immutable/assets/ibm-plex-sans-cyrillic-ext-400-normal-5cc4dcc1.woff2",
@@ -69,12 +69,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-ecd99739.js",
+    "file": "_app/immutable/components/error.svelte-cf42eb24.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
-      "_stores-0f6db918.js"
+      "_stores-3f5c6910.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -99,12 +99,12 @@
     ]
   },
   "src/routes/essays/+page.svelte": {
-    "file": "_app/immutable/components/pages/essays/_page.svelte-b21274ac.js",
+    "file": "_app/immutable/components/pages/essays/_page.svelte-2865fe6f.js",
     "src": "src/routes/essays/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
-      "_ToggleButton-184ecd19.js"
+      "_ToggleButton-72bc30f7.js"
     ],
     "css": [
       "_app/immutable/assets/_page-8809ac93.css"
@@ -124,19 +124,19 @@
     ]
   },
   "src/routes/talks/+page.svelte": {
-    "file": "_app/immutable/components/pages/talks/_page.svelte-3189bd95.js",
+    "file": "_app/immutable/components/pages/talks/_page.svelte-afce4e3c.js",
     "src": "src/routes/talks/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-9011c3fd.js",
-      "_ToggleButton-184ecd19.js"
+      "_ToggleButton-72bc30f7.js"
     ],
     "css": [
       "_app/immutable/assets/_page-8809ac93.css"
     ]
   },
-  "_singletons-f635bf53.js": {
-    "file": "_app/immutable/chunks/singletons-f635bf53.js",
+  "_singletons-c04e6ce2.js": {
+    "file": "_app/immutable/chunks/singletons-c04e6ce2.js",
     "imports": [
       "_index-9011c3fd.js",
       "_paths-324980d9.js"
@@ -148,11 +148,11 @@
   "_index-9011c3fd.js": {
     "file": "_app/immutable/chunks/index-9011c3fd.js"
   },
-  "_stores-0f6db918.js": {
-    "file": "_app/immutable/chunks/stores-0f6db918.js",
+  "_stores-3f5c6910.js": {
+    "file": "_app/immutable/chunks/stores-3f5c6910.js",
     "imports": [
       "_index-9011c3fd.js",
-      "_singletons-f635bf53.js"
+      "_singletons-c04e6ce2.js"
     ]
   },
   "_GridWorks-611a7671.js": {
@@ -164,17 +164,17 @@
       "_app/immutable/assets/GridWorks-d7641021.css"
     ]
   },
-  "_ToggleButton-184ecd19.js": {
-    "file": "_app/immutable/chunks/ToggleButton-184ecd19.js",
+  "_ToggleButton-72bc30f7.js": {
+    "file": "_app/immutable/chunks/ToggleButton-72bc30f7.js",
     "imports": [
       "_index-9011c3fd.js"
     ],
     "css": [
-      "_app/immutable/assets/ToggleButton-2ff52b5a.css"
+      "_app/immutable/assets/ToggleButton-f43d6200.css"
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-36598fbb.js",
+    "file": "_app/immutable/chunks/0-4a2cd324.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -182,7 +182,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-d208aa43.js",
+    "file": "_app/immutable/chunks/1-f24cb951.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -206,7 +206,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-340ae1c4.js",
+    "file": "_app/immutable/chunks/4-242c606c.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -222,35 +222,35 @@
     ]
   },
   ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-51c4691e.js",
+    "file": "_app/immutable/chunks/6-b07f7afc.js",
     "src": ".svelte-kit/generated/nodes/6.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/talks/+page.svelte"
     ]
   },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-a3b083ca.css",
-    "src": "src/routes/+page.css"
-  },
-  "GridWorks.css": {
-    "file": "_app/immutable/assets/GridWorks-d7641021.css",
-    "src": "GridWorks.css"
-  },
   "src/routes/talks/+page.css": {
     "file": "_app/immutable/assets/_page-8809ac93.css",
     "src": "src/routes/talks/+page.css"
   },
-  "ToggleButton.css": {
-    "file": "_app/immutable/assets/ToggleButton-2ff52b5a.css",
-    "src": "ToggleButton.css"
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-a3b083ca.css",
+    "src": "src/routes/+page.css"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-f1797189.css",
+    "src": "src/routes/+layout.css"
   },
   "src/routes/projects/+page.css": {
     "file": "_app/immutable/assets/_page-ec0b1333.css",
     "src": "src/routes/projects/+page.css"
   },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-c3dba22e.css",
-    "src": "src/routes/+layout.css"
+  "GridWorks.css": {
+    "file": "_app/immutable/assets/GridWorks-d7641021.css",
+    "src": "GridWorks.css"
+  },
+  "ToggleButton.css": {
+    "file": "_app/immutable/assets/ToggleButton-f43d6200.css",
+    "src": "ToggleButton.css"
   }
 }
