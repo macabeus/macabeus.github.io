@@ -5,11 +5,18 @@
   import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin'
   import { faStackOverflow } from '@fortawesome/free-brands-svg-icons/faStackOverflow'
   import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
+  import MyAnimeList from '../svgs/MyAnimeList.svelte'
 </script>
 
 <style>
-  a ~ a {
-    margin-left: 1rem;
+  address {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .raw-svg {
+    display: contents;
   }
 </style>
 
@@ -32,5 +39,9 @@
 
   <a href="https://twitter.com/bmacabeus" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
     <Fa icon={faTwitter} />
+  </a>
+
+  <a href="https://myanimelist.net/profile/trickster42" target="_blank" rel="noopener noreferrer" aria-label="My Anime List" class="raw-svg">
+    <MyAnimeList />
   </a>
 </address>
